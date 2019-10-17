@@ -1,0 +1,32 @@
+$('.view').click(function(){
+    var id = $(this).parents('tr').find("td:first-child").html();
+    $('#title').html($('#title'+id).html());
+    $('#status').html($('#status'+id).html());
+    $('#openDate').html($('#openDate'+id).html());
+    $('#closeDate').html($('#closeDate'+id).html());
+    $('#question').html($('#question'+id).html());
+    $('#answer').html($('#answer'+id).html());
+    $('.modal').removeClass('hidden');
+    $('.modal-body').removeClass('hidden');
+});
+$('.modal-close').click(function(){
+    $('.modal').addClass('hidden');
+    $('.modal-body').addClass('hidden');
+    $('#title').html('');
+    $('#status').html('');
+    $('#openDate').html('');
+    $('#closeDate').html('');
+    $('#question').html('');
+    $('#answer').html('');
+});
+$('.delete').click(function(){
+    $('.modal').removeClass('hidden');
+    $('.modal-delete').removeClass('hidden');
+    $('#delete-id').value($(this).parents('tr').find("td:first-child").html());
+});
+$('.delete-cancel').click(function(){
+    $('.modal').addClass('hidden');
+    $('.modal-delete').addClass('hidden');
+    $('#delete-id').value('');
+});
+$('table').DataTable();
