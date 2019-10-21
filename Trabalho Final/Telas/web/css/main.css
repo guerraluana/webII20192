@@ -88,7 +88,7 @@ h1{
 .button-box{
     margin-top: 25%;
 }
-a, button{
+a, button, .button{
     display: block;
     text-decoration: none;
     text-transform: uppercase;

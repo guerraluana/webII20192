@@ -14,21 +14,22 @@
                 <h1>Cadastro</h1>
                 <form>
                     <input type="text" placeholder="Nome">
-                    <input type="text" placeholder="CPF">
-                    <input type="text" placeholder="Email">
+                    <input type="text" id="cpf" placeholder="CPF">
+                    <input type="email" id="email" placeholder="Email">
                     <input type="text" placeholder="Endereço">
-                    <input class="small" type="text" placeholder="Nº">
+                    <input class="small" type="text" id="housenumber" placeholder="Nº">
                     <input class="medium" type="text" placeholder="Comp">
                     <input type="text" placeholder="Bairro">
-                    <input type="text" placeholder="CEP">
+                    <input type="text" id="cep" placeholder="CEP">
                     <input class="medium" type="text" placeholder="Cidade">
                     <input class="small" type="text" placeholder="UF">
-                    <input type="phone" placeholder="Telefone">
-                    <input type="text" placeholder="Senha">
-                    <input type="text" placeholder="Confirmar Senha">
-                    <button type="submit">Cadastrar</button>
+                    <input type="phone" id="phone" placeholder="Telefone">
+                    <input type="password" placeholder="Senha">
+                    <input type="password" placeholder="Confirmar Senha">
+                    <input type="submit" class="button" value="Cadastrar">
                 </form>
             </div>
         </div>
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>

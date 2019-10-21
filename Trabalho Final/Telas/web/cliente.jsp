@@ -32,7 +32,7 @@
                             <td>Creme para espinhas</td>
                             <td>Concluído</td>
                             <td>12/09/2019</td>
-                            <td><button class="view">Ver</button></td>
+                            <td><button class="questionView">Ver</button></td>
                             <td class="disabled">X</td>
                         </tr>
                         <tr>
@@ -40,7 +40,7 @@
                             <td>Problema com creme</td>
                             <td>Aberto</td>
                             <td>20/09/2019</td>
-                            <td><button class="view">Ver</button></td>
+                            <td><button class="questionView">Ver</button></td>
                             <td class="delete">X</td>
                         </tr>
                         <tr>
@@ -48,7 +48,7 @@
                             <td>Problema com Maquiagem</td>
                             <td>Aberto</td>
                             <td>22/09/2019</td>
-                            <td><button class="view">Ver</button></td>
+                            <td><button class="questionView">Ver</button></td>
                             <td class="delete">X</td>
                         </tr>
                     </tbody>
