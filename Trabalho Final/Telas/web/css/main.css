@@ -200,7 +200,7 @@ td.disabled{
 }
 .modal-body p{
     display: block;
-    margin-bottom: 12px;
+    margin: 30px auto;
     text-align: center;
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {

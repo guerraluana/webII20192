@@ -29,11 +29,12 @@
                     <input type="text" placeholder="Cidade">
                     <input type="text" placeholder="UF">
                     <input type="phone" id="phone" placeholder="Telefone">
-                    <input type="password" placeholder="Senha">
-                    <input type="password" placeholder="Confirmar Senha">
-                    <input type="submit" class="button" value="Alterar">
+                    <input type="password" id="pass" placeholder="Senha">
+                    <input type="password" id="cpass" placeholder="Confirmar Senha">
+                    <button type="submit">Alterar</button>
                 </form>
             </div>
         </div>
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>

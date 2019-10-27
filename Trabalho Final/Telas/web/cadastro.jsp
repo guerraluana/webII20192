@@ -6,7 +6,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/main.css">
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     </head>
     <body>
         <div class="content">
@@ -24,12 +23,13 @@
                     <input class="medium" type="text" placeholder="Cidade">
                     <input class="small" type="text" placeholder="UF">
                     <input type="phone" id="phone" placeholder="Telefone">
-                    <input type="password" placeholder="Senha">
-                    <input type="password" placeholder="Confirmar Senha">
-                    <input type="submit" class="button" value="Cadastrar">
+                    <input type="password" id="pass" placeholder="Senha">
+                    <input type="password" id="cpass" placeholder="Confirmar Senha">
+                    <button type="submit">Cadastrar</button>
                 </form>
             </div>
         </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>

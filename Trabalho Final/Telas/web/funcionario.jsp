@@ -58,6 +58,10 @@
                     <p>Concluído em: <span id="closeDate"></span></p>
                     <p>Solicitação: <br /><span id="question"></span></p>
                     <p>Resposta do atendimento: <br /><span id="answer"></span></p>
+                    <form class="questReply">
+                        <input type="text">
+                        <button type="submit">Responder</button>
+                    </form>
                     <button class="modal-close">Fechar</button>
                 </div>
             </div>
