@@ -22,18 +22,19 @@
                     <input type="text" disabled placeholder="CPF">
                     <input type="text" disabled placeholder="Email">
                     <input type="text" placeholder="Endereço">
-                    <input type="text" placeholder="Nº">
+                    <input type="text" id="housenumber" placeholder="Nº">
                     <input type="text" placeholder="Comp">
                     <input type="text" placeholder="Bairro">
-                    <input type="text" placeholder="CEP">
+                    <input type="text" id="cep" placeholder="CEP">
                     <input type="text" placeholder="Cidade">
                     <input type="text" placeholder="UF">
-                    <input type="phone" placeholder="Telefone">
-                    <input type="text" placeholder="Senha">
-                    <input type="text" placeholder="Confirmar Senha">
+                    <input type="phone" id="phone" placeholder="Telefone">
+                    <input type="password" id="pass" placeholder="Senha">
+                    <input type="password" id="cpass" placeholder="Confirmar Senha">
                     <button type="submit">Alterar</button>
                 </form>
             </div>
         </div>
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
