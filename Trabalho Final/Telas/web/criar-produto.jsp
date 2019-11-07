@@ -22,10 +22,13 @@
                         <option>Selecione a categoria</option>
                     </select>
                     <input type="text" placeholder="Título">
+                    <input type="text" id="weightIn" placeholder="Peso">
                     <textarea rows="20" cols="53" type="textarea" placeholder="Escreva uma breve descrição"></textarea>
                     <button type="submit">Criar</button>
                 </form>
             </div>
         </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>

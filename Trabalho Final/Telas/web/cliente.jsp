@@ -20,7 +20,8 @@
                 <table cellpadding=0 cellspacing=0>
                     <thead>
                     <th>Nº</th>
-                    <th>Título</th>
+                    <th>Tipo</th>
+                    <th>Produto</th>
                     <th>Status</th>
                     <th>Data de Criação</th>
                     <th>Ver</th>
@@ -29,7 +30,8 @@
                     <tbody>
                         <tr>
                             <td>20</td>
-                            <td>Creme para espinhas</td>
+                            <td>Critica</td>
+                            <td>Creme</td>
                             <td>Concluído</td>
                             <td>12/09/2019</td>
                             <td><button class="questionView">Ver</button></td>
@@ -37,7 +39,8 @@
                         </tr>
                         <tr>
                             <td>25</td>
-                            <td>Problema com creme</td>
+                            <td>Critica</td>
+                            <td>Creme</td>
                             <td>Aberto</td>
                             <td>20/09/2019</td>
                             <td><button class="questionView">Ver</button></td>
@@ -45,7 +48,8 @@
                         </tr>
                         <tr>
                             <td>28</td>
-                            <td>Problema com Maquiagem</td>
+                            <td>Critica</td>
+                            <td>Creme</td>
                             <td>Aberto</td>
                             <td>22/09/2019</td>
                             <td><button class="questionView">Ver</button></td>
@@ -60,6 +64,7 @@
                     <p>Status: <span id="status"></span></p>
                     <p>Aberto em: <span id="openDate"></span></p>
                     <p>Concluído em: <span id="closeDate"></span></p>
+                    <p>Produto: <span id="product"></span></p>
                     <p>Solicitação: <br /><span id="question"></span></p>
                     <p>Resposta do atendimento: <br /><span id="answer"></span></p>
                     <button class="modal-close">Fechar</button>
@@ -67,7 +72,7 @@
                 <div class="modal-delete hidden">
                     <h2>Deseja mesmo excluir este item?</h2>
                     <button class="delete-cancel">Cancelar</button>
-                    <form>
+                    <form action='/delete'>
                         <input class="hidden" id="delete-id">
                         <button type="submit">Excluir</button>
                     </form>
@@ -76,13 +81,14 @@
             <div class="hidden">
                 <div class="table-data">
                     <div id="20">
-                        <p id="title20">Creme para espinhas</p>
+                        <p id="title20">Crítica</p>
                         <p id="status20">Concluído</p>
                         <p id="openDate20">12/09/2019</p>
                         <p id="closeDate20">14/09/2019</p>
+                        <p id="product20">Batão</p>
                         <p id="question20">Estou usando o creme há  um mês e a espinha só aumenta.</p>
                         <p id="answer20">Vá ao médico, pode ser câncer!</p>
-                    </div>
+                    </div>  
                 </div>
             </div>
         </div>

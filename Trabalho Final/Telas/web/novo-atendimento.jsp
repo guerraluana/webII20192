@@ -17,7 +17,12 @@
             <div class="form-holder">
                 <h1>Criar Atendimento</h1>
                 <form>
-                    <input type="text" placeholder="Título">
+                    <select>
+                        <option>Tipo do atendimento</option>
+                    </select>
+                    <select>
+                        <option>Produto</option>
+                    </select>
                     <textarea rows="20" cols="53" type="textarea" placeholder="Escreva uma breve descrição"></textarea>
                     <button type="submit">Criar</button>
                 </form>

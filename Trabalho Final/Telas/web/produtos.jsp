@@ -23,6 +23,7 @@
                     <th>Categoria</th>
                     <th>Título</th>
                     <th>Descrição</th>
+                    <th>Peso</th>
                     <th>Ver</th>
                     <th>Excluir</th>
                     </thead>
@@ -32,6 +33,7 @@
                             <td>Pele</td>
                             <td>Creme de espinhas</td>
                             <td>Creme para o tratamento de espinhas</td>
+                            <td>20g</td>
                             <td><button class="prodView">Ver</button></td>
                             <td class="delete">X</td>
                         </tr>
@@ -40,6 +42,7 @@
                             <td>Maquiagem</td>
                             <td>Rímel</td>
                             <td>Máscara para cílios</td>
+                            <td>20g</td>
                             <td><button class="prodView">Ver</button></td>
                             <td class="delete">X</td>
                         </tr>
@@ -48,6 +51,7 @@
                             <td>Cabelo</td>
                             <td>Shampoo anticaspa</td>
                             <td>Shampoo para o tratamento de caspa</td>
+                            <td>20g</td>
                             <td><button class="prodView">Ver</button></td>
                             <td class="delete">X</td>
                         </tr>
@@ -64,6 +68,8 @@
                             </select>
                             <p>Descrição: <br /><span id="desc"></span></p>
                             <textarea class="hidden prodChange" placeholder="Nova Descrição"></textarea>
+                            <p>Peso: <br /><span id="peso"></span></p>
+                            <input class="hidden prodChange"type="text" id="weightIn" placeholder="Novo Peso">
                             <button type="submit" class="prodChange hidden">Alterar</button>
                             <button class="prodEdit">Editar</button>
                             <button class="prodCancel hidden">Cancelar</button>
@@ -86,6 +92,7 @@
                             <p id="title20">Creme de espinhas</p>
                             <p id="type20">Pele</p>
                             <p id="desc20">Creme para o tratamento de espinhas  </p>
+                            <p id="peso20">20g</p>
                         </div>
                     </div>
                 </div>
