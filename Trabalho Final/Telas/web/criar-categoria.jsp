@@ -19,7 +19,6 @@
                 <h1>Criar Categoria</h1>
                 <form>
                     <input type="text" placeholder="Título">
-                    <textarea rows="20" cols="53" type="textarea" placeholder="Escreva uma breve descrição"></textarea>
                     <button type="submit">Criar</button>
                 </form>
             </div>

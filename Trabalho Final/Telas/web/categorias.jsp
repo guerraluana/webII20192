@@ -21,7 +21,6 @@
                     <thead>
                     <th>Nº</th>
                     <th>Título</th>
-                    <th>Descrição</th>
                     <th>Ver</th>
                     <th>Excluir</th>
                     </thead>
@@ -29,21 +28,18 @@
                         <tr>
                             <td>20</td>
                             <td>Pele</td>
-                            <td>Cremes, sabonetes e loções destinadas ao uso tópico</td>
                             <td><button class="catView">Ver</button></td>
                             <td class="delete">X</td>
                         </tr>
                         <tr>
                             <td>25</td>
                             <td>Maquiagem</td>
-                            <td>Produtos de maquiagem em geral</td>
                             <td><button class="catView">Ver</button></td>
                             <td class="delete">X</td>
                         </tr>
                         <tr>
                             <td>28</td>
                             <td>Cabelo</td>
-                            <td>Shampoos e condicionadores</td>
                             <td><button class="catView">Ver</button></td>
                             <td class="delete">X</td>
                         </tr>
@@ -54,8 +50,6 @@
                         <h2 id="title"></h2>
                         <form>
                             <input type="text" class="hidden catChange" placeholder="Novo Título">
-                            <p>Descrição: <br /><span id="desc"></span></p>
-                            <input type="text" class="hidden catChange" placeholder="Nova Descrição">
                             <button type="submit" class="catChange hidden">Alterar</button>
                             <button class="catEdit">Editar</button>
                             <button class="catCancel hidden">Cancelar</button>
@@ -76,7 +70,6 @@
                     <div class="table-data">
                         <div id="20">
                             <p id="title20">Pele</p>
-                            <p id="desc20">Cremes, sabonetes e loções destinadas ao uso tópico</p>
                         </div>
                     </div>
                 </div>

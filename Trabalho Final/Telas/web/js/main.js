@@ -110,6 +110,11 @@ $("#cpass").blur(function() {
     }
     $(this).css('border-color', '#030303');
 });
+$('#weightIn').keyup(function() {
+    var weight = this.value;
+    var num = weight.replace(/[^\d]/g, '');
+    this.value = num;
+});
     //  Modal Atendimentos
 $('.questionView').click(function() {
     event.preventDefault();
@@ -118,6 +123,7 @@ $('.questionView').click(function() {
     $('#status').html($('#status'+id).html());
     $('#openDate').html($('#openDate'+id).html());
     $('#closeDate').html($('#closeDate'+id).html());
+    $('#product').html($('#product'+id).html());
     $('#question').html($('#question'+id).html());
     $('#answer').html($('#answer'+id).html());
     $('#answer').html() !== '' && $('.questReply').addClass('hidden');
@@ -132,6 +138,7 @@ $('.modal-close').click(function() {
     $('#status').html('');
     $('#openDate').html('');
     $('#closeDate').html('');
+    $('#product').html('');
     $('#question').html('');
     $('#answer').html('');
     $('.questReply').hasClass('hidden') && $('.questReply').removeClass('hidden');
@@ -141,7 +148,6 @@ $('.catView').click(function() {
     event.preventDefault();
     var id = $(this).parents('tr').find("td:first-child").html();
     $('#title').html($('#title'+id).html());
-    $('#desc').html($('#desc'+id).html());
     $('.modal').removeClass('hidden');
     $('.modal-body').removeClass('hidden');
 });
@@ -150,7 +156,6 @@ $('.cat-close').click(function() {
     $('.modal').addClass('hidden');
     $('.modal-body').addClass('hidden');
     $('#title').html('');
-    $('#desc').html('');
 });
 $('.catEdit').click(function() {
     event.preventDefault();
@@ -177,6 +182,7 @@ $('.prodView').click(function() {
     $('#title').html($('#title'+id).html());
     $('#type').html($('#type'+id).html());
     $('#desc').html($('#desc'+id).html());
+    $('#peso').html($('#peso'+id).html());
     $('.modal').removeClass('hidden');
     $('.modal-body').removeClass('hidden');
 });

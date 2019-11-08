@@ -1,4 +1,4 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+    <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -20,7 +20,7 @@
                 <table cellpadding=0 cellspacing=0>
                     <thead>
                     <th>Nº</th>
-                    <th>Título</th>
+                    <th>Tipo</th>
                     <th>Status</th>
                     <th>Data de Criação</th>
                     <th>Ver</th>
@@ -28,21 +28,21 @@
                     <tbody>
                         <tr>
                             <td>20</td>
-                            <td>Creme para espinhas</td>
+                            <td>Crítica</td>
                             <td>Concluído</td>
-                            <td>12  /09/2019</td>
+                            <td>12/09/2019</td>
                             <td><button class="questionView">Ver</button></td>
                         </tr>
                         <tr>
                             <td>25</td>
-                            <td>Problema com creme</td>
+                            <td>Informações</td>
                             <td>Aberto</td>
                             <td>20/09/2019</td>
                             <td><button class="questionView">Ver</button></td>
                         </tr>
                         <tr>
                             <td>28</td>
-                            <td>Problema com Maquiagem</td>
+                            <td>Elogio</td>
                             <td>Aberto</td>
                             <td>22/09/2019</td>
                             <td><button class="questionView">Ver</button></td>
@@ -58,8 +58,8 @@
                     <p>Concluído em: <span id="closeDate"></span></p>
                     <p>Solicitação: <br /><span id="question"></span></p>
                     <p>Resposta do atendimento: <br /><span id="answer"></span></p>
-                    <form class="questReply">
-                        <input type="text">
+                    <form class="questReply" action="">
+                        <input type="text" id="callResponse">
                         <button type="submit">Responder</button>
                     </form>
                     <button class="modal-close">Fechar</button>
@@ -68,7 +68,7 @@
             <div class="hidden">
                 <div class="table-data">
                     <div id="20">
-                        <p id="title20">Creme para espinhas</p>
+                        <p id="title20">Crítica</p>
                         <p id="status20">Concluído</p>
                         <p id="openDate20">12/09/2019</p>
                         <p id="closeDate20">14/09/2019</p>

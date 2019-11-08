@@ -17,7 +17,7 @@
             </header>
             <div class="form-holder">
                 <h1>Alterar Dados</h1>
-                <form>
+                <form action=''>
                     <input type="text" placeholder="Nome">
                     <input type="text" disabled placeholder="CPF">
                     <input type="text" disabled placeholder="Email">
