@@ -29,22 +29,22 @@
                         <tr>
                             <td>20</td>
                             <td>Crítica</td>
-                            <td>Concluído</td>
-                            <td>12/09/2019</td>
+                            <td class="questStat">Concluído</td>
+                            <td class="questDate">12/09/2019</td>
                             <td><button class="questionView">Ver</button></td>
                         </tr>
                         <tr>
                             <td>25</td>
                             <td>Informações</td>
-                            <td>Aberto</td>
-                            <td>20/09/2019</td>
+                            <td class="questStat">Aberto</td>
+                            <td class="questDate">20/09/2019</td>
                             <td><button class="questionView">Ver</button></td>
                         </tr>
                         <tr>
                             <td>28</td>
                             <td>Elogio</td>
-                            <td>Aberto</td>
-                            <td>22/09/2019</td>
+                            <td class="questStat">Aberto</td>
+                            <td class="questDate">07/11/2019</td>
                             <td><button class="questionView">Ver</button></td>
                         </tr>
                     </tbody>

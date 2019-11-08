@@ -38,7 +38,7 @@ header.cliente-header a, header.funcionario-header a, header.gerente-header a{
 .content{
     position: relative;
     height: 80vh;
-    width: 600px;
+    width: 800px;
     background: #e0d9c3;
     border: 50px solid #f2ead3;
     border-top: 0;

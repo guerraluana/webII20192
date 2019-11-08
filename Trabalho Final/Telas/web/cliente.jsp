@@ -72,8 +72,8 @@
                 <div class="modal-delete hidden">
                     <h2>Deseja mesmo excluir este item?</h2>
                     <button class="delete-cancel">Cancelar</button>
-                    <form action='/delete'>
-                        <input class="hidden" id="delete-id">
+                    <form>
+                        <input type="text" class="hidden" id="delete-id">
                         <button type="submit">Excluir</button>
                     </form>
                 </div>

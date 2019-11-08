@@ -218,13 +218,34 @@ $('.delete').click(function() {
     event.preventDefault();
     $('.modal').removeClass('hidden');
     $('.modal-delete').removeClass('hidden');
-    $('#delete-id').value($(this).parents('tr').find("td:first-child").html());
+    $('#delete-id').val($(this).parents('tr').find("td:first-child").html());
 });
 $('.delete-cancel').click(function() {
     event.preventDefault();
     $('.modal').addClass('hidden');
     $('.modal-delete').addClass('hidden');
-    $('#delete-id').value('');
+    $('#delete-id').val('');
 });
 
 $('table').DataTable();
+
+$('.questStat').each(function(){
+    let status = $(this).html();
+    if(status === 'Concluído'){
+        $(this).parents('tr').css('color', 'white');
+        $(this).parents('tr').css('background', 'green');
+    }
+    if(status === 'Aberto'){
+        var date = $(this).siblings('.questDate').html();
+        var fdate = date.substring(3,6) + date.substring(0,2) + date.substring(5, date.length);
+        var whendate = new Date(fdate);
+        var todate = new Date;
+        var timeDiff = todate.getTime() - whendate.getTime();
+        var dayDiff = timeDiff / (1000 * 3600 * 24);
+        if (dayDiff >= 7){
+            $(this).parents('tr').css('background', 'red');
+        } else {
+            $(this).parents('tr').css('background', 'yellow');
+        }
+    }
+});
