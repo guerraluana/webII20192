@@ -6,46 +6,40 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/main.css">
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     </head>
     <body>
         <div class="content">
             <header class="gerente-header">
+                <a href="atendimentos.jsp">Atendimentos</a>
                 <a href="usuarios.jsp">Usuários</a>
                 <a href="relatorios.jsp">Relatórios</a>
                 <a href="/Telas">Logout</a>
             </header>
             <div class="form-holder">
-                <h1>Atendimentos</h1>
-                <table cellpadding=0 cellspacing=0>
+                <h1>Dashboard</h1>
+                <h2>Atendimentos criados: <span>400</span></h2>
+                <h2>Atendimentos abertos: <span>200</span> - <span>50%</span></h2>
+                <table cellpadding=0 cellspacing=0 class="table-manager">
                     <thead>
-                    <th>Nº</th>
-                    <th>Título</th>
-                    <th>Status</th>
-                    <th>Data de Criação</th>
-                    <th>Ver</th>
+                        <th>Tipo</th>
+                        <th>Abertos/Totais</th>                    
                     </thead>
                     <tbody>
                         <tr>
-                            <td>20</td>
-                            <td>Creme para espinhas</td>
-                            <td>Concluído</td>
-                            <td>12  /09/2019</td>
-                            <td><button>Ver</button></td>
+                            <td>Críticas</td>
+                            <td>100/200</td>
                         </tr>
                         <tr>
-                            <td>25</td>
-                            <td>Problema com creme</td>
-                            <td>Aberto</td>
-                            <td>20/09/2019</td>
-                            <td><button>Ver</button></td>
+                            <td>Elogios</td>
+                            <td>2/10</td>
                         </tr>
                         <tr>
-                            <td>28</td>
-                            <td>Problema com Maquiagem</td>
-                            <td>Aberto</td>
-                            <td>22/09/2019</td>
-                            <td><button>Ver</button></td>
+                            <td>Dúvidas</td>
+                            <td>78/90</td>
+                        </tr>
+                        <tr>
+                            <td>Sugestões</td>
+                            <td>20/110</td>
                         </tr>
                     </tbody>
                 </table>

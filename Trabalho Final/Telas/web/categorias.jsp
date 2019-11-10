@@ -19,10 +19,10 @@
                 <h1>Categorias</h1>
                 <table cellpadding=0 cellspacing=0>
                     <thead>
-                    <th>Nº</th>
-                    <th>Título</th>
-                    <th>Ver</th>
-                    <th>Excluir</th>
+                        <th>Nº</th>
+                        <th>Título</th>
+                        <th>Ver</th>
+                        <th>Excluir</th>
                     </thead>
                     <tbody>
                         <tr>

@@ -227,6 +227,12 @@ $('.delete-cancel').click(function() {
     $('#delete-id').val('');
 });
 
+$('#quest-report').click(function(){
+    event.preventDefault();
+    $('.modal').removeClass('hidden');
+    $('#quest-modal').removeClass('hidden');
+});
+
 $('table').DataTable();
 
 $('.questStat').each(function(){

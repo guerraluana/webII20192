@@ -35,6 +35,9 @@ header.cliente-header a, header.funcionario-header a, header.gerente-header a{
     line-height: 5vh;
     border: 0;
 }
+header.gerente-header a{
+    width: 24%;
+}
 .content{
     position: relative;
     height: 80vh;
@@ -206,4 +209,10 @@ td.disabled{
 .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
     min-width: 0;
     width: 40px;
+}
+table{
+    margin: auto;
+}
+.table-manager{
+    margin: 45px auto;
 }
