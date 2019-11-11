@@ -5,7 +5,7 @@
         <title>Home | BEIBE</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" type="text/css" href="js/libs/DataTables/dataTables.min.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">        
     </head>
     <body>
@@ -19,7 +19,7 @@
                 <h1>Atendimentos</h1>
                 <table cellpadding=0 cellspacing=0>
                     <thead>
-                    <th>Nº</th>
+                    <th>ID</th>
                     <th>Tipo</th>
                     <th>Produto</th>
                     <th>Status</th>
@@ -92,8 +92,8 @@
                 </div>
             </div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-        <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+        <script src="js/libs/JQuery/jquery.min.js"></script>
+        <script src="js/libs/DataTables/dataTables.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

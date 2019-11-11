@@ -127,6 +127,7 @@ $('.questionView').click(function() {
     $('#question').html($('#question'+id).html());
     $('#answer').html($('#answer'+id).html());
     $('#answer').html() !== '' && $('.questReply').addClass('hidden');
+    $('#callID').val(id);
     $('.modal').removeClass('hidden');
     $('.modal-body').removeClass('hidden');
 });
@@ -142,6 +143,7 @@ $('.modal-close').click(function() {
     $('#question').html('');
     $('#answer').html('');
     $('.questReply').hasClass('hidden') && $('.questReply').removeClass('hidden');
+    $('#callID').val('');
 });
     //  Modal Categorias
 $('.catView').click(function() {
@@ -150,12 +152,14 @@ $('.catView').click(function() {
     $('#title').html($('#title'+id).html());
     $('.modal').removeClass('hidden');
     $('.modal-body').removeClass('hidden');
+    $('#catID').val(id);
 });
 $('.cat-close').click(function() {
     event.preventDefault();
     $('.modal').addClass('hidden');
     $('.modal-body').addClass('hidden');
     $('#title').html('');
+    $('#catID').val('');
 });
 $('.catEdit').click(function() {
     event.preventDefault();
@@ -185,6 +189,7 @@ $('.prodView').click(function() {
     $('#peso').html($('#peso'+id).html());
     $('.modal').removeClass('hidden');
     $('.modal-body').removeClass('hidden');
+    $('#prodID').val(id);
 });
 $('.prod-close').click(function() {
     event.preventDefault();
@@ -193,6 +198,7 @@ $('.prod-close').click(function() {
     $('#title').html('');
     $('#type').html('');
     $('#desc').html('');
+    $('#prodID').val('');
 });
 $('.prodEdit').click(function() {
     event.preventDefault();
@@ -227,12 +233,32 @@ $('.delete-cancel').click(function() {
     $('#delete-id').val('');
 });
 
+//  Formulários
+$('#date-report').click(function(){
+    event.preventDefault();
+    $('.modal').removeClass('hidden');
+    $('.date-modal').removeClass('hidden');
+});
+
+$('#date-modal-close').click(function(){
+    event.preventDefault();
+    $('.modal').addClass('hidden');
+    $('.date-modal').addClass('hidden');
+});
+
 $('#quest-report').click(function(){
     event.preventDefault();
     $('.modal').removeClass('hidden');
-    $('#quest-modal').removeClass('hidden');
+    $('.quest-modal').removeClass('hidden');
 });
 
+$('#quest-modal-close').click(function(){
+    event.preventDefault();
+    $('.modal').addClass('hidden');
+    $('.quest-modal').addClass('hidden');
+});
+
+//  Tabelas
 $('table').DataTable();
 
 $('.questStat').each(function(){
@@ -254,4 +280,14 @@ $('.questStat').each(function(){
             $(this).parents('tr').css('background', 'yellow');
         }
     }
+});
+
+$('.userEdit').click(function(){
+    var id = $(this).parents('tr').find("td:first-child").html();
+    $('#edit-user-id').val(id);
+    $('#edit-user-form').submit();
+});
+
+$('.datepicker').datepicker({
+    format: "dd/mm/yyyy"
 });

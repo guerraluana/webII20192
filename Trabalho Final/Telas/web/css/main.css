@@ -116,6 +116,7 @@ a:hover, button:hover{
     height: 80%;
     padding: 10vh;
     overflow: auto;
+    margin: auto;
 }
 input, textarea, select{
     display: block;

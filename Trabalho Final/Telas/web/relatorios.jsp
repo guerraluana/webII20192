@@ -5,6 +5,7 @@
         <title>Relatórios | BEIBE</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type='text/css' href="js/libs/Datepicker/datepicker.min.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
     <body>
@@ -25,10 +26,8 @@
             <div class="modal hidden">
                 <div class="modal-body date-modal hidden">
                     <form>
-                        <span>Data inicial:</span>
-                        <input type="date">
-                        <span>Data final:</span>
-                        <input type="date">
+                        <p>Data inicial: <input class='datepicker' type="text"></p>
+                        <p>Data final: <input class='datepicker' type="text"></p>
                         <button type="submit">Gerar Relatório</button>
                         <button id="date-modal-close" type="submit">Fechar</button>
                     </form>
@@ -47,8 +46,9 @@
                 </div>
             </div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-        <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+        <script src="js/libs/JQuery/jquery.min.js"></script>
+        <script src="js/libs/Datepicker/datepicker.min.js"></script>        
+        <script src="js/libs/DataTables/dataTables.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

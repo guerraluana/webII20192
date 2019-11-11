@@ -16,7 +16,7 @@
                 <a href="/Telas">Logout</a>
             </header>
             <div class="form-holder">
-                <h1>Dashboard</h1>
+                <h1>Bem vindo!</h1>
                 <h2>Atendimentos criados: <span>400</span></h2>
                 <h2>Atendimentos abertos: <span>200</span> - <span>50%</span></h2>
                 <table cellpadding=0 cellspacing=0 class="table-manager">

@@ -29,7 +29,7 @@
                 </form>
             </div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="js/libs/JQuery/jquery.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
