@@ -1,0 +1,60 @@
+INSERT INTO PESSOA ('LUIZA SOUZA','89979867828', 'luluzinha@hotmail.com', 54999748654, 'SENHA') 
+INSERT INTO PESSOA ('FRANCIELLE FRANÇA MENDES', '40974042889', 'francielle.mendes@live.com', 41988858689, 'SENHA')
+INSERT INTO PESSOA ('GABRIELLA MATHAIS', '07944387826', 'gabi@gmail.com, 13999557687, 'SENHA')
+INSERT INTO PESSOA ('IGOR PASSOS', '60758897822', 'igorpassos@outlook.com, 41998757687, 'SENHA')
+INSERT INTO PESSOA ('LUANA GUERRA', '00244387826', 'guerraluana@gmail.com', 41996661263, 'SENHA')
+INSERT INTO PESSOA ('VANDERLEIA DE FRANÇA', 29597952882, 'vanderleia_franca@hotmail.com', 13991298653, 'SENHA')
+INSERT INTO PESSOA ('BRUNA BOGADO', 04989149607, 'bbogado@live.com', 41991118685, 'SENHA')
+INSERT INTO PESSOA ('EDUARDO WEBER', 04806827630, 'weber@gmail.com', 41988876566, 'SENHA'
+INSERT INTO PESSOA ('HERIK FERRAZ', 05908415642, 'herikferraz@gmail.com', 41978906543, 'SENHA'
+INSERT INTO PESSOA ('MATHEUS', 00398112396, 'matheusm@outlook.com, 41998324567, 'SENHA'
+
+INSERT INTO ENDERECO ('MARECHAL HERMES', 988, , 'BOQUEIRAO', 87665431, 'CAXIAS DO SUL', 'RS')
+INSERT INTO ENDERECO ('CONSELHEIRO LAURINDO', 781, 'AP 902', 'CENTRO', 80060100, 'CURITIBA', 'PR')
+INSERT INTO ENDERECO ('AV. ANA COSTA, 1007, 'AP 1209', CANAL 4, 87509200, 'SANTOS, 'SP')
+INSERT INTO ENDERECO ('CONSELHEIRO LAURINDO', 781, 'AP 902', 'CENTRO', 80060100, 'CURITIBA', 'PR')
+INSERT INTO ENDERECO ('PROF. BRANDAO', 540, 'AP 608', 'ALTO DA XV', '82590300', 'CURITIBA', 'PR')
+INSERT INTO ENDERECO ('JULIA LISBOA MATHAIS', 171, , 'RETIRO DAS CARAVELAS', 'CANANEIA, 'SP')
+INSERT INTO ENDERECO ('BRASILIO ITIBERE', 3279, , 'AGUA VERDE, 80240-060, 'CURITIBA', 'PR')
+INSERT INTO ENDERECO ('CAP. SOUZA FRANCO', 773, , BIGORRILHO, 80730-420, 'CURITIBA, 'PR')
+INSERT INTO ENDERECO ('AV. SETE DE SETEMBRO', 2775, 'AP 906', 'REBOUCAS', 80230-010, 'CURITIBA', 'PR')
+INSERT INTO ENDERECO ('AV. JOAO GALBERTO, 623, 'AP 1010', 'ALTO DA GLORIA', 80030-080, 'CURITIBA', 'PR')
+
+INSERT INTO PRODUTO (1,'Spray Antifrizz','CABELOS', 'Leve and Solto - Spray Antifrizz', 200);
+INSERT INTO PRODUTO (2,'Absolut Repair Cortex Lipidium - Máscara de Reconstrução', 'CABELOS','O fim dos cabelos danificados1 Absolut Repair Cortex Lipidium trata profundamente e reconstrói instantaneamente todas as zonas do cabelo enquanto cria uma barreira isolante para conter os nutrientes essenciais no interior da fibra e protege os cabelos contra novas agressões.' ,500);
+INSERT INTO PRODUTO (3,'Corretivo para área dos Olhos', 'MAQUIAGEM, 'O Instant Age Rewind Rewind Eraser é conhecido internacionalmente pela sua alta cobertura e toque seco! Seu aplicador inovador apaga olheiras, inchaço e linhas finas INSTANTÂNEAMENTE, além de facilitar muito a aplicação do produto.',30)
+INSERT INTO PRODUTO (4,'Bad Boy','PERFUMES','Bad Boy celebra a nova masculinidade: multifacetada e surpreendente. Homens são pura dualidade: fortes e sensíveis; poderosos e empáticos; heroicos e vulneráveis. Bad Boy é uma homenagem aos homens empoderados que se atrevem a seguir seu próprio caminho e que não têm medo de expressar e compartilhar seus sentimentos.', 90)
+INSERT INTO PRODUTO (5,'Sabonete em Barra Enxofre', 'TRATAMENTOS', 'O Sabonete em Barra de Enxofre com ácido Salicílico 2% e extrato de enxofre e partículas esfoliantes, proporciona diminuição da oleosidade, desobstrução dos poros e remoção das células mortas e impurezas que podem atrair bactérias da acne.', 90)
+INSERT INTO PRODUTO (6,'Sérum Anti-Idade', 'DERMOCOSMETICOS', 'O Salicyli C10, é o primeiro sérum anti-idade concentrado renovador e corretor de imperfeições da pele oleosa, combinando vitamina C pura, ácido salicilico que combate a oleosidade e Neurosensine para uma ação calmante. Com ação antioxidante e nova textura com efeito iluminador imediado, ele é indicado para corrigir rugas, textura irregular, tonalidade irregular e poros dilatados.', 40)
+INSERT INTO PRODUTO (7, 'Solar Expertise BB Cream FPS50 - Protetor Solar - Natural', 'MAQUIAGEM', 'O B.B. ou Blemish Balm é uma nova geração de cuidado facial originada na Ásia que acumula diversas funções em um só produto. A principal delas é hidratar e uniformizar a pele imediatamente. Um cuidado completo, adaptado a todas as idades. O Solar Expertise BB Cream FPS 50 é o 1º protetor solar BB Cream com máxima proteção solar e inovação 5 em 1: protege dos raios UVA e UVB, previne manchas solares, uniformiza e ilumina, hidrata a pele e suaviza imperfeições.'
+INSERT INTO PRODUTO (8, 'Solar Expertise Toque Seco Antiacne FPS 30', 'TRATAMENTOS', 'Para aproveitar o sol, sua pele precisa de uma proteção contra os danos profundos causados pelos raios solares. A BEIBE desenvolveu o protetor solar Solar Expertise Supreme Toque Seco Antiacne FPS 30, que garante uma proteção solar avançada e um cuidado supremo da beleza da pele. Possui um incrível toque seco, sendo ideal para pele oleosa e acneica.', 50)
+INSERT INTO PRODUTO (9, 'Máscara para Cílios - #MeuVolumão - Preto', 'MAQUIAGEM', 'Volume, comprimento e alta definição nunca foram tão fáceis de criar. A fórmula fluida e cremosa da Máscara de Cílios #MeuVolumão, possui deslizamento uniformemente que cobre os cílios da raiz às pontas para um volume espetacular.',15)
+INSERT INTO PRODUTO (10, 'Creme Renovador de Pés', 'DERMOCOSMETICOS', 'Desenvolvido com dermatologistas, Creme Renovador de Pés suaviza e ajuda a restaurar a barreira protetora da pele dos pés. Esta fórmula não oleosa contém as 3 ceramidas essenciais para a pele + ácido hialurônico, promovendo hidratação o dia todo através de sua exclusiva tecnologia MVE, de liberação prolongada de ativos hidratantes.',88)
+INSERT INTO PRODUTO (11, '1 Million - Perfume Masculino', 'PERFUMES', 'O aroma de couro fresco e picante combina notas de cabeça de pomelo, hortelã e laranja sanguínea para criar um coquetel luminoso e reluzente. Canela e absoluto de rosa fornecem intensidade e virilidade no coração. Por fim, mas não menos importante, o acorde final de couro blond, madeira branca, âmbar e patchouli tornam esta fragrância uma mistura sensual e irresistível.',30)
+INSERT INTO PRODUTO (12, 'Perfume Feminino - Eau de Parfum', 'PERFUMES', 'O Eau de Parfum é uma fragrância floral, leve e refrescante. Evoca toda a suavidade sublime das rosas. O efeito é elegante, envolvente e totalmente inebriante.', 30)
+INSERT INTO PRODUTO (13, 'Óleo de Tratamento', 'CABELOS', 'Obtenha os cabelos sedosos, brilhantes e saudáveis que sempre quis. Como ele contém óleo de argan, rico em antioxidantes e vitaminas que estimulam o brilho, esse tratamento de cabelos completamente transformador desembaraça, acelera o tempo de secagem dos cabelos e promove o brilho, deixando os fios nutridos, fáceis de manusear e macios a cada uso. Destaque-se na multidão.', 25)
+INSERT INTO PRODUTO (14, 'Máscara Capilar Morte Súbita', 'CABELOS', 'Para uma hidratação profunda, a Máscara Hidrante Morte Súbita pode ser usada como um tratamento semanal que repõe proteínas perdidas devido agentes externos e procedimentos químicos',450)
+INSERT INTO PRODUTO (15, 'Resistance Bain Extentioniste - Shampoo ', 'CABELOS', 'Shampoo Bain Extentioniste para estimular o crescimento. Ativa o couro cabeludo e atua no fortalecimento da fibra capilar. Ajuda a garantir um couro cabeludo saudável e estimulado para propiciar um melhor crescimento dos fios.Cabelos mais resistentes, com toque homogêneo e muito cosmético.', 250)
+INSERT INTO PRODUTO (16, 'Batom Retro Matte - Flat Out Fabulous', 'MAQUIAGEM', 'Fórmula de batom de longa duração que proporciona cor intensamente pigmentada e acabamento ultra matte aveludado.', 10)
+INSERT INTO PRODUTO (17, 'Sérum Clareador para olhos', 'TRATAMENTOS', 'Sérum Corretor Clarité Olhos CC é um corretor clínico de ação clareadora para bolsas e olheiras. A sua combinação de cinco ativos e esferas massageadoras suavizam e reduzem bolsas e olheiras, além de oferecer ação anti-idade. As esferas massageadoras do Clarité Olhos CC promovem massagem em toda a região dos olhos, reduzindo o inchaço.', 15)
+
+
+INSERT INTO CATEGORIA ('CABELOS')
+INSERT INTO CATEGORIA ('PERFUMES')
+INSERT INTO CATEGORIA ('MAQUIAGEM')
+INSERT INTO CATEGORIA ('DERMOCOSMETICOS')
+INSERT INTO CATEGORIA ('TRATAMENTOS')
+
+
+INSERT INTO TIPOAT ('ELOGIO')
+INSERT INTO TIPOAT ('CRITICA')
+INSERT INTO TIPOAT ('SUGESTAO')
+INSERT INTO TIPOAT ('INFORMACOES')
+
+INSERT INTO ATENDIMENTO('11/09/19 10:41', '00244387826', 'CONCLUIDO', 2, 'ELOGIO', 'Realmente cumpre o que promete! Depois que fiz luzes, meu cabelo ficou péssimo. Comprei o creme pela quantidade de comentários positivos. E realmente faz jus.', 'Olá! Agradecemos o carinho do feedback :)! Beijos')
+INSERT INTO ATENDIMENTO('15/09/19 01:30', '89979867828', 'CONCLUIDO', 5, 'ELOGIO', 'Ótimo sabonete, em 3 dias senti espinhas secarem (usando duas vezes ao dia), não tem um cheiro muito forte e esfolia bastante', 'Olá! Agradecemos o carinho do feedback :)! Beijos')
+INSERT INTO ATENDIMENTO('01/10/19 10:45', '40974042889', 'CONCLUIDO', 1, 'ELOGIO', 'Amei! Deixa um brilho maravilhoso, o cabelo fica macio e além disso tudo um cheiro mt bom que fica até você lavar o cabelo !!!', 'Olá! Agradecemos o carinho do feedback :)! Beijos')
+INSERT INTO ATENDIMENTO('07/10/19 14:34', '07944387826', 'ABERTO', 3, 'CRITICA', 'Estava seco, não saiu o corretivo p/ o aplicador, apesar de manusear corretamente. Creio estar com defeito.', '')
+INSERT INTO ATENDIMENTO('10/10/19 20:15', '60758897822', 'ABERTO', 4, 'SUGESTAO', 'O formato do frasco do perfume não é muito confortável para o manuzeio enquanto borrifa, sugiro um novo formato', '')
+INSERT INTO ATENDIMENTO('17/10/19 17:56', '29597952882', 'CONCLUIDO', 6, 'INFORMACOES', 'Causou muita acne . E não senti nenhuma melhora em 15 dias de uso. Vou usar mais um pouco com dias alternados para ver se diminui o aparecimento de acne...', 'Olá, agradecemos sua compra. Normalmente, os produtos de tratamento, o resultado é visível com no mínimo 90 dias de uso.')
+INSERT INTO ATENDIMENTO('18/10/19 13:35', '40974042889', 'CONCLUIDO, 8, 'INFORMACOES', 'É necessário reaplicação após nadar?', 'Sim, é necessário a reaplicação do produto para manter a sua efetividade. Reaplicar sempre, após sudorese intensa, nadar ou banhar-se, secar-se com toalha e durante a exposição ao sol.')
