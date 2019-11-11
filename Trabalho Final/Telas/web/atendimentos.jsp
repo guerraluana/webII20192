@@ -1,18 +1,19 @@
-    <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Home | BEIBE</title>
+        <title>Atendimentos | BEIBE</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="js/libs/DataTables/dataTables.min.css">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">        
     </head>
     <body>
         <div class="content">
-            <header class="funcionario-header">
-                <a href="categorias.jsp">Categorias</a>
-                <a href="produtos.jsp">Produtos</a>
+            <header class="gerente-header">
+                <a href="gerente.jsp">Home</a>
+                <a href="usuarios.jsp">Usuários</a>
+                <a href="relatorios.jsp">Relatórios</a>
                 <a href="/Telas">Logout</a>
             </header>
             <div class="form-holder">
@@ -58,11 +59,6 @@
                     <p>Concluído em: <span id="closeDate"></span></p>
                     <p>Solicitação: <br /><span id="question"></span></p>
                     <p>Resposta do atendimento: <br /><span id="answer"></span></p>
-                    <form class="questReply" action="">
-                        <input type="text" class="hidden" id="callID">
-                        <input type="text" id="callResponse">
-                        <button type="submit">Responder</button>
-                    </form>
                     <button class="modal-close">Fechar</button>
                 </div>
             </div>

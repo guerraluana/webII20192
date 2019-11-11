@@ -127,6 +127,7 @@ $('.questionView').click(function() {
     $('#question').html($('#question'+id).html());
     $('#answer').html($('#answer'+id).html());
     $('#answer').html() !== '' && $('.questReply').addClass('hidden');
+    $('#callID').val(id);
     $('.modal').removeClass('hidden');
     $('.modal-body').removeClass('hidden');
 });
@@ -142,6 +143,7 @@ $('.modal-close').click(function() {
     $('#question').html('');
     $('#answer').html('');
     $('.questReply').hasClass('hidden') && $('.questReply').removeClass('hidden');
+    $('#callID').val('');
 });
     //  Modal Categorias
 $('.catView').click(function() {
@@ -150,12 +152,14 @@ $('.catView').click(function() {
     $('#title').html($('#title'+id).html());
     $('.modal').removeClass('hidden');
     $('.modal-body').removeClass('hidden');
+    $('#catID').val(id);
 });
 $('.cat-close').click(function() {
     event.preventDefault();
     $('.modal').addClass('hidden');
     $('.modal-body').addClass('hidden');
     $('#title').html('');
+    $('#catID').val('');
 });
 $('.catEdit').click(function() {
     event.preventDefault();
@@ -185,6 +189,7 @@ $('.prodView').click(function() {
     $('#peso').html($('#peso'+id).html());
     $('.modal').removeClass('hidden');
     $('.modal-body').removeClass('hidden');
+    $('#prodID').val(id);
 });
 $('.prod-close').click(function() {
     event.preventDefault();
@@ -193,6 +198,7 @@ $('.prod-close').click(function() {
     $('#title').html('');
     $('#type').html('');
     $('#desc').html('');
+    $('#prodID').val('');
 });
 $('.prodEdit').click(function() {
     event.preventDefault();
@@ -218,13 +224,70 @@ $('.delete').click(function() {
     event.preventDefault();
     $('.modal').removeClass('hidden');
     $('.modal-delete').removeClass('hidden');
-    $('#delete-id').value($(this).parents('tr').find("td:first-child").html());
+    $('#delete-id').val($(this).parents('tr').find("td:first-child").html());
 });
 $('.delete-cancel').click(function() {
     event.preventDefault();
     $('.modal').addClass('hidden');
     $('.modal-delete').addClass('hidden');
-    $('#delete-id').value('');
+    $('#delete-id').val('');
 });
 
+//  Formulários
+$('#date-report').click(function(){
+    event.preventDefault();
+    $('.modal').removeClass('hidden');
+    $('.date-modal').removeClass('hidden');
+});
+
+$('#date-modal-close').click(function(){
+    event.preventDefault();
+    $('.modal').addClass('hidden');
+    $('.date-modal').addClass('hidden');
+});
+
+$('#quest-report').click(function(){
+    event.preventDefault();
+    $('.modal').removeClass('hidden');
+    $('.quest-modal').removeClass('hidden');
+});
+
+$('#quest-modal-close').click(function(){
+    event.preventDefault();
+    $('.modal').addClass('hidden');
+    $('.quest-modal').addClass('hidden');
+});
+
+//  Tabelas
 $('table').DataTable();
+
+$('.questStat').each(function(){
+    let status = $(this).html();
+    if(status === 'Concluído'){
+        $(this).parents('tr').css('color', 'white');
+        $(this).parents('tr').css('background', 'green');
+    }
+    if(status === 'Aberto'){
+        var date = $(this).siblings('.questDate').html();
+        var fdate = date.substring(3,6) + date.substring(0,2) + date.substring(5, date.length);
+        var whendate = new Date(fdate);
+        var todate = new Date;
+        var timeDiff = todate.getTime() - whendate.getTime();
+        var dayDiff = timeDiff / (1000 * 3600 * 24);
+        if (dayDiff >= 7){
+            $(this).parents('tr').css('background', 'red');
+        } else {
+            $(this).parents('tr').css('background', 'yellow');
+        }
+    }
+});
+
+$('.userEdit').click(function(){
+    var id = $(this).parents('tr').find("td:first-child").html();
+    $('#edit-user-id').val(id);
+    $('#edit-user-form').submit();
+});
+
+$('.datepicker').datepicker({
+    format: "dd/mm/yyyy"
+});

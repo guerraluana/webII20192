@@ -35,10 +35,13 @@ header.cliente-header a, header.funcionario-header a, header.gerente-header a{
     line-height: 5vh;
     border: 0;
 }
+header.gerente-header a{
+    width: 24%;
+}
 .content{
     position: relative;
     height: 80vh;
-    width: 600px;
+    width: 800px;
     background: #e0d9c3;
     border: 50px solid #f2ead3;
     border-top: 0;
@@ -113,6 +116,7 @@ a:hover, button:hover{
     height: 80%;
     padding: 10vh;
     overflow: auto;
+    margin: auto;
 }
 input, textarea, select{
     display: block;
@@ -206,4 +210,10 @@ td.disabled{
 .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
     min-width: 0;
     width: 40px;
+}
+table{
+    margin: auto;
+}
+.table-manager{
+    margin: 45px auto;
 }
